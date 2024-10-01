@@ -1,15 +1,20 @@
 {
-  "name": "serpro-nfe",
+  "name": "@webcoreinteractive/serpro-nfe",
   "version": "1.0.0",
   "description": "Serpro Integration",
   "module": "lib/index.cjs.min.js",
   "main": "lib/index.cjs.min.js",
+  "license": "MIT",
   "exports": {
     ".": {
       "require": "./lib/index.cjs.min.js",
       "default": "./lib/index.esm.min.js"
     }
   },
+  "keywords": [
+    "NFe",
+    "Serpro"
+  ],
   "scripts": {
     "build": "rollup --config"
   },
