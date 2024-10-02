@@ -1,6 +1,6 @@
 {
   "name": "@webcoreinteractive/serpro-nfe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serpro Integration",
   "module": "lib/index.cjs.min.js",
   "main": "lib/index.cjs.min.js",
